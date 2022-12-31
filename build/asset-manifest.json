@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e218e385.css",
+    "main.js": "/static/js/main.b6e00fce.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Dota2.mp4": "/static/media/Dota2.302b3658a88d9dd03eae.mp4",
+    "static/media/Filmverse.mp4": "/static/media/Filmverse.d3028c753ccce9da6e73.mp4",
+    "static/media/shopit.mp4": "/static/media/shopit.e68017d677a1a7052cce.mp4",
+    "static/media/juggernaut.png": "/static/media/juggernaut.9ec1e1a4d028a62a1767.png",
+    "static/media/background.jpg": "/static/media/background.30653bd2c38ce0954476.jpg",
+    "static/media/film.png": "/static/media/film.d8baf35ee799d49dbaec.png",
+    "static/media/Shoppingcart.png": "/static/media/Shoppingcart.5272c7e98d2d71d438b9.png",
+    "static/media/profile.jpg": "/static/media/profile.8a2f352db8bbe0ab2d55.jpg",
+    "static/media/react.png": "/static/media/react.dceaa1723fa4b0f19ff5.png",
+    "static/media/redux.png": "/static/media/redux.61817520ed0869628241.png",
+    "static/media/sass.png": "/static/media/sass.b4856dfeb58fd76614f8.png",
+    "static/media/instagram.png": "/static/media/instagram.9e3b725d19e9c56387b8.png",
+    "static/media/github.png": "/static/media/github.70795635b1979c8fe745.png",
+    "static/media/tailwind.png": "/static/media/tailwind.758ff6c4bbbd147f7e9c.png",
+    "static/media/javascript.png": "/static/media/javascript.06347a8180874c276f6e.png",
+    "index.html": "/index.html",
+    "main.e218e385.css.map": "/static/css/main.e218e385.css.map",
+    "main.b6e00fce.js.map": "/static/js/main.b6e00fce.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e218e385.css",
+    "static/js/main.b6e00fce.js"
+  ]
+}
