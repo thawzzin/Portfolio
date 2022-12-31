@@ -1,7 +1,5 @@
 import React from "react";
 import WorkCard from "./WorkCard";
-import dota2 from "../../Assets/Video/Dota2.mp4";
-import shopit from "../../Assets/Video/shopit.mp4";
 import { projects } from "./Projects";
 
 

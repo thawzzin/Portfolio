@@ -1,6 +1,5 @@
 import React from "react";
 import ArrowBtn from "../Buttons/ArrowBtn";
-import Btn from "../Buttons/Btn";
 import './WorkCard.scss'
 
 
