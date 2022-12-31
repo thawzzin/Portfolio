@@ -1,0 +1,41 @@
+$jsOffset: 30;
+$reactOffset: 30;
+$tsOffset: 30;
+$reduxOffset: 30;
+$sassOffset: 30;
+$twOffset: 30;
+
+.outer {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding-top: 15px;
+  // border: 1px solid red;
+}
+
+.inner {
+  padding: 15px;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  // border: 1px solid red;
+}
+
+circle {
+  fill: none;
+  stroke: white;
+  stroke-width: 8px;
+  stroke-dasharray: 218;
+  // stroke-dashoffset: 30;
+  stroke-linecap: round;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(-90deg);
+}
+
+
