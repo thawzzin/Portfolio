@@ -4,6 +4,11 @@ import filmverse from '../../Assets/Video/Filmverse.mp4'
 import juggernaut from '../../Assets/Image/juggernaut.png'
 import shoppingcart from '../../Assets/Image/Shoppingcart.png'
 import film from '../../Assets/Image/film.png'
+import reactIcon from "../../Assets/Icons/react.png";
+import tsIcon from "../../Assets/Icons/typescript.png";
+import reduxIcon from "../../Assets/Icons/redux.png";
+import sassIcon from "../../Assets/Icons/sass.png";
+import tailwindIcon from "../../Assets/Icons/tailwind.png";
 
 export const projects = [
     {
@@ -12,15 +17,17 @@ export const projects = [
         video: dota2,
         url: 'https://zett1e.github.io/Dota2-Landing-Page/',
         githubUrl: 'https://github.com/Zett1e/Dota2-Landing-Page',
-        img: juggernaut
+        img: juggernaut,
+        libs: [reactIcon,tailwindIcon]
     },
     {
         title: 'Shopit',
-        description: 'A responsive e-commerce shopping website with dummyjson api. Developed to enhance my skill in developing online stores and e-commerce platforms.',
+        description: 'A responsive e-commerce shopping website with dummyjson api. Developed to enhance my skills in developing online stores and e-commerce platforms.',
         video: shopit,
         url: 'https://zett1e.github.io/shopit',
         githubUrl: 'https://github.com/Zett1e/shopit',
-        img: shoppingcart
+        img: shoppingcart,
+        libs: [reactIcon,tsIcon,reduxIcon,tailwindIcon]
     },
     {
         title: 'Filmverse',
@@ -28,6 +35,7 @@ export const projects = [
         video: filmverse,
         url: 'https://zett1e.github.io/Filmverse/',
         githubUrl: 'https://github.com/Zett1e/Filmverse',
-        img: film
+        img: film,
+        libs: [reactIcon,sassIcon]
     }
 ]

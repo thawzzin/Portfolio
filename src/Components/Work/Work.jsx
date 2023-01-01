@@ -13,12 +13,7 @@ const Work = () => {
       {projects.map((project, index) => (
         <WorkCard
         key={index}
-          title={project.title}
-          description={project.description}
-          video={project.video}
-          url={project.url}
-          githubUrl={project.githubUrl}
-          img={project.img}
+          project = {project}
         />
       ))}
     </div>

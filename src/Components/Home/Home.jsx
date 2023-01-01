@@ -19,7 +19,7 @@ const Home = () => {
             challenges and experiences in front end development to enhance my
             skills.
           </p>
-          <a href="/" className="btn mt-5 py-1 inline-block">
+          <a href="https://drive.google.com/uc?export=download&id=1Gt82u_dSd12_mewHKIgLr3cl47QLvrt3" className="btn mt-5 py-1 inline-block">
             Download CV
           </a>
         </article>
