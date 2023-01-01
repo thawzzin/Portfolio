@@ -18,22 +18,25 @@ const About = () => {
         About Me{" "}
       </h1>
       <div>
-        <div className="mx-auto w-40 h-40 mb-5">
+        {/* <div className="mx-auto w-40 h-40 mb-5">
           <img
             src={require("../../Assets/Image/profile.jpg")}
             alt="Profile"
             className="rounded-[50%] w-full h-full object-cover"
           />
-        </div>
+        </div> */}
         <div className="md:w-[70%] text-justify mx-auto">
-        <h5 className="mb-5 font-medium text-center"> My name is Thaw Zin Tun and I'm a frontend developer </h5>
+          <h5 className="mb-5 font-medium text-center">
+            {" "}
+            My name is Thaw Zin Tun and I'm a frontend developer based in Yangon{" "}
+          </h5>
           <p>
             As a frontend developer, I have a strong foundation in HTML, CSS,
             JavaScript, and other frameworks and libraries and am skilled at
             building responsive and user-friendly websites and applications. I
             am always looking for ways to improve my skills and stay up-to-date
-            on the latest technologies and best practices in the field and am eager
-            to learn more and put my skills to use in real-world projects.
+            on the latest technologies and best practices in the field and am
+            eager to learn more and put my skills to use in real-world projects.
           </p>
           <br />
           <p>

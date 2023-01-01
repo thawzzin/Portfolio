@@ -9,7 +9,7 @@
 /coverage
 
 # production
-
+/build
 
 # misc
 .DS_Store
@@ -25,5 +25,3 @@ yarn-error.log*
 
 # project wide
 
-Image
-Video
