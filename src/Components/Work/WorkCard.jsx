@@ -9,7 +9,7 @@ const WorkCard = ({ project }) => {
     "
     >
       <article className="md:w-[50%] mb-10 md:mb-0">
-        <h2 className="text-4xl font-bold mb-3"> {project.title} </h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-3"> {project.title} </h2>
         <p> {project.description} </p>
         <div className="flex gap-5 mt-5">
           {project.libs.map((lib)=> <img className="w-7 h-7" src={lib} alt="icon" /> )}

@@ -13,7 +13,7 @@ const About = () => {
       id="about"
       className=" py-10 border-white border-b-[1px] border-opacity-50"
     >
-      <h1 className="text-center font-bold text-5xl uppercase mb-10">
+      <h1 className="text-center font-bold text-4xl md:text-5xl uppercase mb-10">
         {" "}
         About Me{" "}
       </h1>

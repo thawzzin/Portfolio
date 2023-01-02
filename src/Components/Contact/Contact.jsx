@@ -4,7 +4,7 @@ import './Contact.scss'
 const Contact = () => {
   return (
     <div id="contact" className=" py-10">
-      <h1 className="text-center font-bold text-5xl uppercase mb-10">
+      <h1 className="text-center font-bold text-4xl md:text-5xl uppercase mb-10">
         Get in touch
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-between gap-5 md:gap-0 md:w-[40%] mx-auto">
