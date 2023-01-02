@@ -9,7 +9,7 @@ const Home = () => {
       <main className="flex items-center h-full">
         <article className="md:w-1/2">
           <h5 className="uppercase font-medium">Hi, I'm Thaw Zin</h5>
-          <h1 className="uppercase font-bold text-6xl mb-3">
+          <h1 className="uppercase font-bold text-5xl md:text-6xl mb-3">
             I'm a frontend developer
           </h1>
           <p>

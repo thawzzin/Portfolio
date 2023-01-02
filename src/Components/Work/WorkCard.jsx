@@ -14,7 +14,7 @@ const WorkCard = ({ project }) => {
         <div className="flex gap-5 mt-5">
           {project.libs.map((lib)=> <img className="w-7 h-7" src={lib} alt="icon" /> )}
         </div>
-        <div className="flex md:gap-20 justify-between md:justify-start">
+        <div className="flex md:gap-20 justify-between md:justify-start flex-wrap">
           <ArrowBtn title="View on GitHub" url={project.githubUrl} />
           <ArrowBtn title="View Live Demo" url={project.url} />
         </div>
