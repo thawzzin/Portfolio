@@ -15,11 +15,14 @@ const Home = () => {
           <p>
             A frontend developer who write clean and efficient code and
             passionate about creating responsive and interactive web
-            applications with great user experiences. I am seeking more
-            challenges and experiences in front end development to enhance my
-            skills.
+            applications with great user experiences and also adept in
+            collaborating with backend and design teams. Seeking more challenges
+            and experiences.
           </p>
-          <a href="https://drive.google.com/uc?export=download&id=1Gt82u_dSd12_mewHKIgLr3cl47QLvrt3" className="btn mt-5 py-1 inline-block">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1Gt82u_dSd12_mewHKIgLr3cl47QLvrt3"
+            className="btn mt-5 py-1 inline-block"
+          >
             Download CV
           </a>
         </article>

@@ -12,15 +12,6 @@ import tailwindIcon from "../../Assets/Icons/tailwind.png";
 
 export const projects = [
     {
-        title: 'Dota 2',
-        description: 'A website for Dota 2, the best and most exciting moba game!, using opendota api. Intended to learn more about dota2 and know some details. You can go take a look for hero details and lores and details of your favourite pro team if you interested.',
-        video: dota2,
-        url: 'https://zett1e.github.io/Dota2-Landing-Page/',
-        githubUrl: 'https://github.com/Zett1e/Dota2-Landing-Page',
-        img: juggernaut,
-        libs: [reactIcon,tailwindIcon]
-    },
-    {
         title: 'Shopit',
         description: 'A responsive e-commerce shopping website with dummyjson api. Developed to enhance my skills in developing online stores and e-commerce platforms.',
         video: shopit,
@@ -28,6 +19,15 @@ export const projects = [
         githubUrl: 'https://github.com/Zett1e/shopit',
         img: shoppingcart,
         libs: [reactIcon,tsIcon,reduxIcon,tailwindIcon]
+    },
+    {
+        title: 'Dota 2',
+        description: 'A website for Dota 2, the best and most exciting moba game!, using opendota api. Intended to learn more about dota2 and know some details. You can go take a look for hero details and lores and details of your favourite pro team if you interested.',
+        video: dota2,
+        url: 'https://zett1e.github.io/Dota2-Landing-Page/',
+        githubUrl: 'https://github.com/Zett1e/Dota2-Landing-Page',
+        img: juggernaut,
+        libs: [reactIcon,tailwindIcon]
     },
     {
         title: 'Filmverse',
