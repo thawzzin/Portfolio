@@ -6,6 +6,7 @@ import tsIcon from "../../Assets/Icons/typescript.png";
 import reduxIcon from "../../Assets/Icons/redux.png";
 import sassIcon from "../../Assets/Icons/sass.png";
 import tailwindIcon from "../../Assets/Icons/tailwind.png";
+import nextIcon from "../../Assets/Icons/nextjs.png";
 
 const About = () => {
   return (
@@ -71,6 +72,7 @@ const About = () => {
           <div className="flex justify-center gap-10 flex-wrap">
             <Skill icon={jsIcon} offset={30} />
             <Skill icon={reactIcon} offset={50} />
+            <Skill icon={nextIcon} offset={120} next={true} />
             <Skill icon={tsIcon} offset={90} />
             <Skill icon={reduxIcon} offset={80} />
             <Skill icon={sassIcon} offset={60} />
