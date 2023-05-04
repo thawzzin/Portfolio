@@ -8,7 +8,7 @@ const WorkCard = ({ project }) => {
       className="md:flex items-center gap-10 border-black last:border-none border-b-[1px] py-10 md:py-20
     "
     >
-      <article className="md:w-[40%] mb-10 md:mb-0">
+      <article className={`${ project.type === 'web' ? 'md:w-[50%]': 'md:w-[40%]'} mb-10 md:mb-0`}>
         <h2 className="text-3xl md:text-4xl font-bold mb-3">
           {" "}
           {project.title}{" "}

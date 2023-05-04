@@ -7,6 +7,7 @@ import reduxIcon from "../../Assets/Icons/redux.png";
 import sassIcon from "../../Assets/Icons/sass.png";
 import tailwindIcon from "../../Assets/Icons/tailwind.png";
 import nextIcon from "../../Assets/Icons/nextjs.png";
+import svelteIcon from "../../Assets/Icons/svelte.png";
 
 const About = () => {
   return (
@@ -19,13 +20,6 @@ const About = () => {
         About Me{" "}
       </h1>
       <div>
-        {/* <div className="mx-auto w-40 h-40 mb-5">
-          <img
-            src={require("../../Assets/Image/profile.jpg")}
-            alt="Profile"
-            className="rounded-[50%] w-full h-full object-cover"
-          />
-        </div> */}
         <div className="md:w-[70%] text-justify mx-auto">
           <h5 className="mb-5 font-medium text-center">
             {" "}
@@ -73,6 +67,7 @@ const About = () => {
             <Skill icon={jsIcon} offset={30} />
             <Skill icon={reactIcon} offset={50} />
             <Skill icon={nextIcon} offset={120} next={true} />
+            <Skill icon={svelteIcon} offset={120} />
             <Skill icon={tsIcon} offset={90} />
             <Skill icon={reduxIcon} offset={80} />
             <Skill icon={sassIcon} offset={60} />

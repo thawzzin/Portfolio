@@ -20,7 +20,7 @@ const Home = () => {
             and experiences.
           </p>
           <a
-            href="https://drive.google.com/uc?export=download&id=1FhvMsU2gGmRUERN7VPntLpv7XqaMlviq"
+            href="https://drive.google.com/uc?export=download&id=1bKOPYUpdqd078VkLM2lgbyklks-PQrNJ"
             className="btn mt-5 py-1 inline-block"
           >
             Download CV
