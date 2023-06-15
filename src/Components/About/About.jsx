@@ -23,7 +23,7 @@ const About = () => {
         <div className="md:w-[70%] text-justify mx-auto">
           <h5 className="mb-5 font-medium text-center">
             {" "}
-            My name is Thaw Zin Tun and I'm a frontend developer based in Yangon{" "}
+            I am Thaw Zin Tun and a frontend developer based in Yangon{" "}
           </h5>
           <p>
             As a frontend developer, I have a strong foundation in HTML, CSS,
@@ -39,13 +39,12 @@ const About = () => {
             completed a number of courses and certifications to enhance my
             knowledge and skills as a developer. I have also gained valuable
             experience working on a variety of frontend development projects as
-            part of my studies. I am highly motivated and proactive in my
+            part of my studies and internship. I am highly motivated and proactive in my
             learning, and am always looking for opportunities to grow and
             improve as a developer.
           </p>
           <br />
           <p>
-            While I do not have professional experience as a frontend developer,
             I am confident in my ability to learn quickly and adapt to new
             technologies and challenges. I am a fast learner with strong
             problem-solving skills, and believe that my passion for frontend
@@ -53,11 +52,6 @@ const About = () => {
             any team.
           </p>
           <br />
-          <p>
-            I am excited to begin my career as a frontend developer and to
-            contribute my skills and enthusiasm to projects that make a
-            difference.
-          </p>
         </div>
         <div className="w-[80%] mx-auto">
           <h3 className="text-center font-bold text-3xl uppercase my-10">
