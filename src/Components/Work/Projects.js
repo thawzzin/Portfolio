@@ -20,7 +20,7 @@ export const projects = [
     description:
       "A responsive e-commerce shopping website with dummyjson api. Developed to enhance my skills in developing online stores and e-commerce platforms.",
     video: shopit,
-    url: "https://zett1e.github.io/shopit",
+    url: "https://shopit-tz.vercel.app/",
     githubUrl: "https://github.com/Zett1e/shopit",
     img: shoppingcart,
     libs: [reactIcon, tsIcon, reduxIcon, tailwindIcon],
@@ -31,7 +31,7 @@ export const projects = [
     description:
       "A website for Dota 2, the best and most exciting moba game!, using opendota api. Intended to learn more about dota2 and know some details. You can go take a look for hero details and lores and details of your favourite pro team if you interested.",
     video: dota2,
-    url: "https://zett1e.github.io/Dota2-Landing-Page/",
+    url: "https://dota2-landing-page.vercel.app/",
     githubUrl: "https://github.com/Zett1e/Dota2-Landing-Page",
     img: juggernaut,
     libs: [reactIcon, tailwindIcon],
@@ -42,7 +42,7 @@ export const projects = [
     description:
       "A movie project with the movie database api. Wanna know what are popular now? Wanna know details of your favourite movie? Dont know what to watch? Wanna find and watch trailers? Just go there take a look.",
     video: filmverse,
-    url: "https://zett1e.github.io/Filmverse/",
+    url: "https://filmverse-tz.vercel.app/",
     githubUrl: "https://github.com/Zett1e/Filmverse",
     img: film,
     libs: [reactIcon, sassIcon],

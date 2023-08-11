@@ -30,8 +30,7 @@ const About = () => {
             JavaScript, and other frameworks and libraries and am skilled at
             building responsive and user-friendly websites and applications. I
             am always looking for ways to improve my skills and stay up-to-date
-            on the latest technologies and best practices in the field and am
-            eager to learn more and put my skills to use in real-world projects.
+            on the latest technologies and best practices in the field.
           </p>
           <br />
           <p>
