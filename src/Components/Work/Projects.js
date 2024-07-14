@@ -3,8 +3,10 @@ import shopit from "../../assets/videos/shopit.mp4";
 import filmverse from "../../assets/videos/Filmverse.mp4";
 import filmverseMobile from "../../assets/videos/filmverse-mobile.mp4";
 import filmverseMobile2 from "../../assets/videos/filmverse-mobile2.mp4";
+import blueocean from "../../assets/videos/blueocean.webm";
 import juggernaut from "../../assets/images/juggernaut.png";
 import shoppingcart from "../../assets/images/Shoppingcart.png";
+import bologo from "../../assets/images/bologo.png";
 import film from "../../assets/images/film.png";
 import reactIcon from "../../assets/icons/react.png";
 import tsIcon from "../../assets/icons/typescript.png";
@@ -12,8 +14,20 @@ import reduxIcon from "../../assets/icons/redux.png";
 import sassIcon from "../../assets/icons/sass.png";
 import tailwindIcon from "../../assets/icons/tailwind.png";
 import firebaseIcon from "../../assets/icons/firebase.png";
+import shadcnIcon from "../../assets/icons/shadcnicon.png";
 
 export const projects = [
+  {
+    title: "Blue Ocean Comapny Landing Page",
+    type: "web",
+    description:
+      "A landing page of my previous company using React, Tailwindcss, Shadcn along with the dashboard for CMS.",
+    video: blueocean,
+    url: "https://blueoceanmm.com",
+    githubUrl: "",
+    img: bologo,
+    libs: [reactIcon, tailwindIcon, shadcnIcon],
+  },
   {
     title: "Shopit",
     type: "web",
@@ -40,9 +54,9 @@ export const projects = [
     title: "Filmverse",
     type: "web",
     description:
-      "A movie project with the movie database api. Wanna know what are popular now? Wanna know details of your favourite movie? Dont know what to watch? Wanna find and watch trailers? Just go there take a look.",
+      "A movie streaming website with the movie database api. Get in touch with popular films, get some details of your favourite movie and find the one for friday night, including trailers, Just go there and start streaming.",
     video: filmverse,
-    url: "https://filmverse-tz.vercel.app/",
+    url: "https://thefilmverse.vercel.app/",
     githubUrl: "https://github.com/Zett1e/Filmverse",
     img: film,
     libs: [reactIcon, sassIcon],

@@ -1,11 +1,13 @@
 import React from "react";
 import "./Btn.scss";
 
-const ArrowBtn = ({ title, url,type }) => {
+const ArrowBtn = ({ title, url, type }) => {
   return (
-    <div className={type === 'mobile' ? 'hidden' : null}>
+    <div className={type === "mobile" ? "hidden" : null}>
       <a
         href={url}
+        target="_blank"
+        rel="noreferrer"
         className="inline-block mt-5 border-b-2 border-solid border-black md:py-1 font-medium hover:translate-y-[2px] duration-200"
       >
         {title} &rarr;

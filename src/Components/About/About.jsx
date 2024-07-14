@@ -23,7 +23,7 @@ const About = () => {
         <div className="md:w-[70%] text-justify mx-auto">
           <h5 className="mb-5 font-medium text-center">
             {" "}
-            I am Thaw Zin Tun and a frontend developer.{" "}
+            I am Thaw Zin Tun, a frontend developer.{" "}
           </h5>
           <p>
             As a frontend developer, I have a strong foundation in HTML, CSS,

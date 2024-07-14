@@ -8,19 +8,25 @@ const WorkCard = ({ project }) => {
       className="md:flex items-center gap-10 border-black last:border-none border-b-[1px] py-10 md:py-20
     "
     >
-      <article className={`${ project.type === 'web' ? 'md:w-[50%]': 'md:w-[40%]'} mb-10 md:mb-0`}>
+      <article
+        className={`${
+          project.type === "web" ? "md:w-[50%]" : "md:w-[40%]"
+        } mb-10 md:mb-0 `}
+      >
         <h2 className="text-3xl md:text-4xl font-bold mb-3">
           {" "}
           {project.title}{" "}
         </h2>
-        <p> {project.description} </p>
+        <p className="2xl:text-xl"> {project.description} </p>
         <div className="flex gap-5 mt-5">
           {project.libs.map((lib) => (
             <img className="w-7 h-7" src={lib} alt="icon" />
           ))}
         </div>
         <div className="flex md:gap-20 justify-between md:justify-start flex-wrap">
-          <ArrowBtn title="View on GitHub" url={project.githubUrl} />
+          {project.githubUrl && (
+            <ArrowBtn title="View on GitHub" url={project.githubUrl} />
+          )}
           <ArrowBtn
             type={project.type}
             title="View Live Demo"
@@ -28,7 +34,7 @@ const WorkCard = ({ project }) => {
           />
         </div>
       </article>
-      <div className="relative">
+      <div className="relative md:w-[60%]">
         <div className="flex justify-around">
           <div
             className={

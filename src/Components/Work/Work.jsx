@@ -2,7 +2,6 @@ import React from "react";
 import WorkCard from "./WorkCard";
 import { projects } from "./Projects";
 
-
 const Work = () => {
   return (
     <div id="work" className="text-black px-5 md:px-10 pt-10">
@@ -11,10 +10,7 @@ const Work = () => {
       </h1>
 
       {projects.map((project, index) => (
-        <WorkCard
-        key={index}
-          project = {project}
-        />
+        <WorkCard key={index} project={project} />
       ))}
     </div>
   );
