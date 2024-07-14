@@ -36,7 +36,17 @@ main article {
   animation-delay: calc(.1s * var(--i));
 }
 
-
+.profile::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  border: 2px solid white;
+  transform: translate(50px,-50px);
+}
 
  @-webkit-keyframes scale-in-ver-center {
     0% {
