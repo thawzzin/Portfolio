@@ -1,17 +1,17 @@
-import dota2 from "../../Assets/Video/Dota2.mp4";
-import shopit from "../../Assets/Video/shopit.mp4";
-import filmverse from "../../Assets/Video/Filmverse.mp4";
-import filmverseMobile from "../../Assets/Video/filmverse-mobile.mp4";
-import filmverseMobile2 from "../../Assets/Video/filmverse-mobile2.mp4";
-import juggernaut from "../../Assets/Image/juggernaut.png";
-import shoppingcart from "../../Assets/Image/Shoppingcart.png";
-import film from "../../Assets/Image/film.png";
-import reactIcon from "../../Assets/Icons/react.png";
-import tsIcon from "../../Assets/Icons/typescript.png";
-import reduxIcon from "../../Assets/Icons/redux.png";
-import sassIcon from "../../Assets/Icons/sass.png";
-import tailwindIcon from "../../Assets/Icons/tailwind.png";
-import firebaseIcon from "../../Assets/Icons/firebase.png";
+import dota2 from "../../assets/videos/Dota2.mp4";
+import shopit from "../../assets/videos/shopit.mp4";
+import filmverse from "../../assets/videos/Filmverse.mp4";
+import filmverseMobile from "../../assets/videos/filmverse-mobile.mp4";
+import filmverseMobile2 from "../../assets/videos/filmverse-mobile2.mp4";
+import juggernaut from "../../assets/images/juggernaut.png";
+import shoppingcart from "../../assets/images/Shoppingcart.png";
+import film from "../../assets/images/film.png";
+import reactIcon from "../../assets/icons/react.png";
+import tsIcon from "../../assets/icons/typescript.png";
+import reduxIcon from "../../assets/icons/redux.png";
+import sassIcon from "../../assets/icons/sass.png";
+import tailwindIcon from "../../assets/icons/tailwind.png";
+import firebaseIcon from "../../assets/icons/firebase.png";
 
 export const projects = [
   {

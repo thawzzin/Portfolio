@@ -1,13 +1,13 @@
 import React from "react";
 import Skill from "./Skills/Skill";
-import reactIcon from "../../Assets/Icons/react.png";
-import jsIcon from "../../Assets/Icons/javascript.png";
-import tsIcon from "../../Assets/Icons/typescript.png";
-import reduxIcon from "../../Assets/Icons/redux.png";
-import sassIcon from "../../Assets/Icons/sass.png";
-import tailwindIcon from "../../Assets/Icons/tailwind.png";
-import nextIcon from "../../Assets/Icons/nextjs.png";
-import svelteIcon from "../../Assets/Icons/svelte.png";
+import reactIcon from "../../assets/icons/react.png";
+import jsIcon from "../../assets/icons/javascript.png";
+import tsIcon from "../../assets/icons/typescript.png";
+import reduxIcon from "../../assets/icons/redux.png";
+import sassIcon from "../../assets/icons/sass.png";
+import tailwindIcon from "../../assets/icons/tailwind.png";
+import nextIcon from "../../assets/icons/nextjs.png";
+import svelteIcon from "../../assets/icons/svelte.png";
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
         <div className="md:w-[70%] text-justify mx-auto">
           <h5 className="mb-5 font-medium text-center">
             {" "}
-            I am Thaw Zin Tun and a frontend developer based in Yangon{" "}
+            I am Thaw Zin Tun and a frontend developer.{" "}
           </h5>
           <p>
             As a frontend developer, I have a strong foundation in HTML, CSS,

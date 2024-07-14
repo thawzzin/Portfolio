@@ -17,28 +17,28 @@ const Contact = () => {
         <a href="https://www.facebook.com/profile.php?id=100015780607328">
           <img
             className="w-8 h-8"
-            src={require("../../Assets/Icons/facebook.png")}
+            src={require("../../assets/icons/facebook.png")}
             alt="facebook"
           />
         </a>
         <a href="https://www.instagram.com/t_zett1e/">
           <img
             className="w-8 h-8"
-            src={require("../../Assets/Icons/instagram.png")}
+            src={require("../../assets/icons/instagram.png")}
             alt="instagram"
           />
         </a>
         <a href="https://www.linkedin.com/in/thaw-zin-876380253/">
           <img
             className="w-8 h-8"
-            src={require("../../Assets/Icons/linkedin.png")}
+            src={require("../../assets/icons/linkedin.png")}
             alt="linkedin"
           />
         </a>
         <a href="https://github.com/Zett1e">
           <img
             className="w-8 h-8"
-            src={require("../../Assets/Icons/github.png")}
+            src={require("../../assets/icons/github.png")}
             alt="github"
           />
         </a>

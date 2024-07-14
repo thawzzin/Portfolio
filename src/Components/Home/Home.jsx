@@ -56,7 +56,7 @@ const Home = () => {
       <div className="scroll">
         <img
           className="w-10 -mb-4"
-          src={require("../../Assets/Icons/scroll.png")}
+          src={require("../../assets/icons/scroll.png")}
           alt="scroll icon"
         />
         <span> ^ </span>
