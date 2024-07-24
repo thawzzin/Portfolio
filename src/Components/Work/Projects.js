@@ -15,6 +15,7 @@ import sassIcon from "../../assets/icons/sass.png";
 import tailwindIcon from "../../assets/icons/tailwind.png";
 import firebaseIcon from "../../assets/icons/firebase.png";
 import shadcnIcon from "../../assets/icons/shadcnicon.png";
+import nextIcon from "../../assets/icons/nextjs.png";
 
 export const projects = [
   {
@@ -57,9 +58,9 @@ export const projects = [
       "A movie streaming website with the movie database api. Get in touch with popular films, get some details of your favourite movie and find the one for friday night, including trailers, Just go there and start streaming.",
     video: filmverse,
     url: "https://thefilmverse.vercel.app/",
-    githubUrl: "https://github.com/Zett1e/Filmverse",
+    githubUrl: "https://github.com/thawzzin/filmversev2",
     img: film,
-    libs: [reactIcon, sassIcon],
+    libs: [nextIcon, tailwindIcon],
   },
   {
     title: "Filmverse Mobile",
