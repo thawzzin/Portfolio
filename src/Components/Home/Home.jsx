@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div id="home" className="hero h-screen md:px-10 px-5 relative">
       <Header />
-      <main className="h-full flex flex-col-reverse md:flex-row items-center justify-center gap-y-5">
-        <article data-aos="fade-right">
+      <main className="h-full flex md:flex-row items-center gap-y-5">
+        <article data-aos="fade-right" className="md:w-1/2">
           <h5 className="uppercase font-medium ">Hi, I'm Thaw Zin</h5>
           <h1 className="uppercase font-bold text-5xl md:text-6xl mb-3 waviy">
             {/* I'm a frontend developer */}
@@ -54,7 +54,7 @@ const Home = () => {
           </a>
         </article>
 
-        <div>
+        {/* <div>
           <div className="profile relative w-[60%] md:w-[40%] z-10 mx-auto">
             <img
               src={require("../../assets/images/profile.jpg")}
@@ -62,7 +62,7 @@ const Home = () => {
               className=" drop-shadow-2xl block z-10 relative"
             />
           </div>
-        </div>
+        </div> */}
       </main>
       <div className="scroll">
         <img
