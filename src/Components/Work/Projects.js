@@ -11,7 +11,6 @@ import film from "../../assets/images/film.png";
 import reactIcon from "../../assets/icons/react.png";
 import tsIcon from "../../assets/icons/typescript.png";
 import reduxIcon from "../../assets/icons/redux.png";
-import sassIcon from "../../assets/icons/sass.png";
 import tailwindIcon from "../../assets/icons/tailwind.png";
 import firebaseIcon from "../../assets/icons/firebase.png";
 import shadcnIcon from "../../assets/icons/shadcnicon.png";

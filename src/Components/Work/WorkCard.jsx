@@ -19,8 +19,8 @@ const WorkCard = ({ project }) => {
         </h2>
         <p className="2xl:text-xl"> {project.description} </p>
         <div className="flex gap-5 mt-5">
-          {project.libs.map((lib) => (
-            <img className="w-7 h-7" src={lib} alt="icon" />
+          {project.libs.map((lib,index) => (
+            <img key={index} className="w-7 h-7" src={lib} alt="icon" />
           ))}
         </div>
         <div className="flex md:gap-20 justify-between md:justify-start flex-wrap">

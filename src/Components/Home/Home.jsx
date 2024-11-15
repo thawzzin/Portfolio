@@ -3,6 +3,7 @@ import Header from "./Header";
 import "./Home.scss";
 
 const Home = () => {
+  console.log(process.env.REACT_APP_CV_URL);
   return (
     <div id="home" className="hero h-screen md:px-10 px-5 relative">
       <Header />
@@ -47,7 +48,7 @@ const Home = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1kBwgpDYzaKuvABBbxoUuDaAJ67x_WuJ6/view?usp=sharing"
+            href={process.env.REACT_APP_CV_URL}
             className="btn mt-5 py-1 inline-block"
           >
             Download CV
